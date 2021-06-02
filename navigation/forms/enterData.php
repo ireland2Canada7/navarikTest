@@ -8,9 +8,9 @@
 // echo date('H', strtotime($_SESSION['zooTime']));
 // echo date('i', strtotime($_SESSION['zooTime']));
 // echo date('s', strtotime($_SESSION['zooTime']));
+// echo $_SESSION['zooTime'];
 ?>
 		<div class="row">
-		<?php echo $_SESSION['zooTime']; ?>
 			<canvas id="canvas" width="200" height="200" style="background-color:#333;margin-left: 32%;"></canvas>
 		</div>
 
