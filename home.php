@@ -43,5 +43,4 @@
 		$_SESSION['elephant5status'] = 'Healthy';
 
 		$_SESSION['zooTime'] = date('Y-m-d H:i:s');
-		echo "<script>console.error('".$_SESSION['zooTime']."')</script>";
 	?>

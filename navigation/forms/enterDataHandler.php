@@ -30,7 +30,6 @@
 		}
 
 		function advanceTime($animalsArray) {
-			echo "AdvanceTime";
 			// Increase time by 1 hour
 			$timestamp = strtotime($_SESSION['zooTime']) + 60*60;
 			$_SESSION['zooTime'] = date('Y-m-d H:i:s', $timestamp);
@@ -43,7 +42,7 @@
 					if (preg_replace('/[0-9]+/', '', $animal) === 'elephant') {
 						if($_SESSION[$animal.'percent'] >= 70) {
 							$_SESSION[$animal.'status'] = 'Healthy';
-						} else if ($old_percent < 70 && $_SESSION[$animal.'percent'] < 70) {
+						} else if ($old_percent < 70 && $_SESSION[$animal.'percent'] < 70) { // if the elephant was previously under 70% and still is after another hour then it is deceased
 							$_SESSION[$animal.'status'] = 'Deceased';
 							$_SESSION[$animal.'percent'] = 0;
 						} else {
@@ -70,12 +69,9 @@
 					}
 				}
 			}
-
 		}
 
 		function feedAnimals($animalsArray) {
-			echo "FeedAnimals";
-
 			foreach ($animalsArray as &$animal) {
 				$monkeyFeedPercent = rand(10,25);
 				$giraffeFeedPercent = rand(10,25);
@@ -98,7 +94,7 @@
 					}
 				}
 			}
-			
+		
 		}
 	
 		include("navigation/forms/enterData.php");

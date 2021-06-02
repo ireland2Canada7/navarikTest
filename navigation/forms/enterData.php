@@ -1,19 +1,5 @@
 <div class="container">	
 	<form method="POST" action="?p=enterDataHandler" id="dataForm">
-<?php
-
-// session_start();
-// echo $_SESSION['test'];
-// echo var_dump(is_float($_SESSION['elephant5percent']));
-// echo date('H', strtotime($_SESSION['zooTime']));
-// echo date('i', strtotime($_SESSION['zooTime']));
-// echo date('s', strtotime($_SESSION['zooTime']));
-// echo $_SESSION['zooTime'];
-?>
-		<div class="row">
-			<canvas id="canvas" width="200" height="200" style="background-color:#333;margin-left: 32%;"></canvas>
-		</div>
-
 		<div class="row">
 			<div class="col-md-4" id="monkeyDiv">
 				<h2>Monkeys</h2>
@@ -74,12 +60,10 @@
 		   </div>
 		</div>
 
-
-		
-			
-		<div id="btnDiv" style="margin-left: 30%;margin-top: 2%;">
-			<button type="submit" style="margin: 0 5% 0 auto; display: inline;" class="btn btn-primary" name="advanceTimeBtn">Advance time 1 hour</button>
-			<button type="submit" style="margin: 0 auto 0 5%; display: inline;" class="btn btn-success" name="feedAnimalsBtn">Feed the animals</button>
+		<div id="btnDiv" style="margin-left: 14%;margin-top: 2%;margin-bottom: -12%;">
+			<button type="submit" style="margin: 0 5% 190px auto; display: inline;" class="btn btn-primary" name="advanceTimeBtn">Advance time 1 hour</button>
+			<canvas id="canvas" width="200" height="200" style="display: inline;"></canvas>
+			<button type="submit" style="margin: 0 auto 190px 5%; display: inline;" class="btn btn-success" name="feedAnimalsBtn">Feed the animals</button>
 		</div>
 	</form>
 
@@ -139,16 +123,15 @@
 		    var minute = "<?php echo date('i', strtotime($_SESSION['zooTime'])); ?>";
 		    var second = "<?php echo date('s', strtotime($_SESSION['zooTime'])); ?>";
 
-		    //hour
 		    hour=hour%12;
 		    hour=(hour*Math.PI/6)+
 		    (minute*Math.PI/(6*60))+
 		    (second*Math.PI/(360*60));
 		    drawHand(ctx, hour, radius*0.5, radius*0.07);
-		    //minute
+		    
 		    minute=(minute*Math.PI/30)+(second*Math.PI/(30*60));
 		    drawHand(ctx, minute, radius*0.8, radius*0.07);
-		    // second
+		    
 		    second=(second*Math.PI/30);
 		    drawHand(ctx, second, radius*0.9, radius*0.02);
 		}
