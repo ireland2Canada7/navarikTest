@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-04-28 20:30-0000\n"
+"PO-Revision-Date: 2015-04-28 20:49-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4);\n"
+"Language: ga_IE\n"
+
+msgid "Back"
+msgstr "Ar ais"
+
+msgid "Home"
+msgstr "Baile"
+
+msgid "Ballistic Calculator"
+msgstr "Áireamhán ballistic"
+
+msgid "Ballistic Calculation"
+msgstr "Ríomh ballistic"
+
+msgid "What is it, why does it exist, what is it used for, why is the sky blue? Questions and answers galore after the jump...."
+msgstr "Cad é, cén fáth go bhfuil sé ann, cad a úsáidtear é ar feadh, é sin an fáth an gorm spéir? Ceisteanna agus freagraí galore tar éis an léim...."
+
+msgid "Log in"
+msgstr "Logáil isteach"
+
+msgid "Browse Data"
+msgstr "Brabhsáil Sonraí"
+
+msgid "Browse the currently available ammunition, rifling and target data."
+msgstr "Brabhsáil an lón lámhaigh ar fáil faoi láthair, rifling agus díriú sonraí."
+
+msgid "Begin calculating your ballistic solution using either pre set values or your own."
+msgstr "Tosaigh do réiteach ballistic ríomh ag baint úsáide as ceachtar luachanna a leagtar roimh nó do chuid féin."
+
+msgid "Contact Us"
+msgstr "Déan Teagmháil Linn"
+
+msgid "Ideas, comments, criticism? Complete the form here to let our team of talented [sic] developers know."
+msgstr "Smaointe, tuairimí, cáineadh? Comhlánaigh an fhoirm anseo a ligean ar ár bhfoireann de cumasach [sic] forbróirí a fhios."
+
+msgid "View details"
+msgstr "Féach ar na sonraí"

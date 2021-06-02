@@ -1,0 +1,38 @@
+.image-center{
+	text-align: center;
+	color: #4fa46b;
+	width: 100%;
+	height: 50%;
+	clear: both;
+	position: relative;
+	overflow: visible;
+}
+.dot-start {
+	height: auto;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	bottom: -20%;
+	left: 0%;
+	right: 0%;
+}
+.circle{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: red
+}
+.circle-aim{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: green
+}
+.info-text{
+	text-align: center;
+	width: 100%;
+	height: auto;
+	clear: both;
+	position: relative;
+	overflow: visible;
+}
